@@ -1,8 +1,14 @@
 package com.joaovicdsantos.estudo.cap02
 
-
+// classesinha de Foto padrão
 class Foto(val id: Long, val owner: String, val title: String, val farm: Int)
 
+/*
+ * Classe para "parseiar" imagens para objetos
+ * isso não acontece pois tá tudo meio posto na mão.
+ * Nessa altura do livro, não temos conhecimento suficiente, ou
+ * ao menos não se espera que tenha, para escrever a função certinha
+ */
 object ContaFotos extends App {
 
   val resultadoServico =
